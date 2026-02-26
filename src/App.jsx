@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <div>
-      <h2>hello world new</h2>
+      <h2>hello world</h2>
+      <h3>implement CI/CD pipeline</h3>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
