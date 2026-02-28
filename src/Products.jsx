@@ -6,7 +6,7 @@ export default function Products() {
 
   /* 👉 Fetch products */
   useEffect(() => {
-    fetch("http://localhost:3001/get-products")
+    fetch("https://node-render-jrpm.onrender.com/get-products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data || []);
